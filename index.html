@@ -25,16 +25,25 @@
     <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body>
+    <!-- Landing -->
+    <section id="landing">
+      <div class="container">
+        <h1>Selamat Datang Di <span class="auto-type"></span> Saya.</h1>
+        <a href="">Ayo Jelajahi</a>
+      </div>
+    </section>
+    <!-- Landing -->
+
     <!-- Navbar -->
     <nav class="navbar">
       <div class="navbar-logo">
         <a href="">ftr<span>portfolio.</span></a>
       </div>
       <div class="navbar-nav">
-        <a href="">Beranda</a>
-        <a href="">Profil</a>
-        <a href="">Portfolio</a>
-        <a href="">Souvenir</a>
+        <a href="#landing">Beranda</a>
+        <a href="#profile">Profil</a>
+        <a href="">Portofolio</a>
+        <a href="">Dagangan</a>
         <a href="">Kontak</a>
       </div>
       <div class="navbar-extra">
@@ -46,15 +55,28 @@
     </nav>
     <!-- Navbar -->
 
-    <!-- Home -->
-    <section id="home">
-      <h1>Welcome</h1>
+    <!-- Profile -->
+    <section id="profile">
+      <h1>Halo kenalin</h1>
     </section>
-    <!-- Home -->
 
     <!-- Feather Icons -->
     <script>
       feather.replace();
     </script>
+
+    <!-- Text Animation -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["Portofolio", "Proyek", "Toko"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true,
+      });
+    </script>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
   </body>
 </html>
