@@ -35,6 +35,10 @@ body a {
   top: 0;
 }
 
+.sticky + #profile {
+  padding-top: 74px;
+}
+
 .navbar .navbar-logo a {
   font-style: italic;
   color: black;
