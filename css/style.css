@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 200rem;
+}
+
+body a {
+  text-decoration: none;
+}
+
+.feather {
+  stroke-width: 0.2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid black;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar .navbar-logo a {
+  font-style: italic;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav,
+.navbar-extra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .navbar-nav a {
+  color: black;
+  margin: 0.5rem 1rem;
+  font-weight: 600;
+}
+
+.navbar .navbar-extra .button {
+  margin: 0.5rem;
+}
+
+.navbar .navbar-extra #menu {
+  display: none;
+}
+
+section {
+  text-align: center;
+}
+
+#home {
+  height: 100vh;
+  padding-top: 6rem;
+  background-color: grey;
+}
